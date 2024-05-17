@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav{
+    width: 100%;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        
+}
+body{
+    height: 100vh;
+    background-image: url(../images/tesla.jpg);
+    object-position: cover;
+    background-size: cover;
+    
+   
+}
+.nav-box{
+    display: flex;
+    align-items: center;
+    gap: 105px;
+
+}
+.nav-box ul{
+    display: flex;
+    gap: 49px;
+}
+.nav-box ul a{
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px;
+
+}
+
+.search-icons{
+    width: 180px;
+    display: flex;
+    background-color: rgb(244, 251, 255, 0.7);
+    padding: 0px 20px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.search-icons input{
+    width: 90%;
+    padding: 8px 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 22px;
+}
+
+.search-icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.footer-card{
+    width: 100%;
+    padding: 20px 100px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footer-one{
+    display: flex;
+    gap: 50px;
+    padding: 30% 30px;
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    color: white
+}
+.footer-btn{
+    button{
+        padding: 16px 30px;
+        border-radius: 60px;
+        border: none;
+        background-color: whitesmoke;
+        cursor: pointer;
+        align-items: center;
+        
+    }
+}
